@@ -1,0 +1,281 @@
+/*Header Section Start*/
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(22, 34, 112);
+    position: fixed;
+    margin-top: -120px;
+    
+}
+header .logo{
+    margin-left: 200px;
+}
+header .logo img{
+   height: 60px;
+    width: 150px;
+}
+.logo img:hover{
+    opacity: 0.8;
+}
+header div{
+    float: left;
+}
+header .nav{
+   margin-left: 400px;
+   margin-top: -10px;
+   font-size: 13px;
+   font-weight: bold;
+   position: fixed;
+   
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding: 20px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header .nav ul li a:hover{
+    color: rgb(221, 1, 241);
+    transition: all 0.1s ease-in;
+}
+/*Header Section end*/
+
+
+
+
+
+/*2nd Image section start*/
+.section2{
+    display: flex;
+    margin-top: 120px;
+}
+.image2 img{
+    margin-top: 100px;
+    margin-left: 210px;
+    height: 400px;
+    width: 530px;
+    
+}
+.text2{
+    margin-top: 140px;
+    margin-left: 100px;  
+}
+.text2 h4{font-weight: normal;}
+.text2 h1{
+    margin-top: -15px;
+}
+.text2 p{
+    height: 100px;
+    width: 450px;
+    top: 20px;
+    color: #525D69;
+}
+.text2 button{
+    margin-top: 30px;
+    height: 45px;
+    width: 180px;
+    background-color: #469BF0;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.text2 button:hover{
+    box-shadow: 2px 2px 20px #4792DE, -2px -2px 20px #4792DE ;
+}
+/*2nd Image section end*/
+
+
+
+
+
+/*Footer Tag start&*/
+footer{
+    margin-top: 200px;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(10, 18, 55);
+    color: white;
+}
+.foot{
+    display: flex;
+    float: left;
+}
+.foot1{
+    margin-top: 100px;
+    margin-left: 170px;
+    height: 100%;
+    width: 400px;
+}
+.foot1 h3{
+    font-size: 25px;
+}
+.foot2{
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 100%;
+    width: 400px;
+}
+.foot1 p{
+    margin-left: -3px;
+    margin-top: 10px;
+}
+.foot2 h3{
+    font-size: 25px;
+}
+.foot2 p{
+    margin-left: -3px;
+    margin-top: 10px;
+}
+.foot2 input{
+    height: 40px;
+    width: 280px;
+    border: none;
+    outline: none;
+}
+.foot2 input::placeholder{
+    font-size: 15px;
+    font-weight: bold;
+    font-family:monospace;
+}
+.foot2 .send{
+    height: 42px;
+    width: 70px;
+    font-weight: bold;
+    margin-left: -73px;
+    border: none;
+    background-color: #49A1F9;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.foot3{
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 100%;
+    width: 200px;
+}
+.foot3 h3{
+    font-size: 25px;
+}
+.foot3 p{
+    margin-left: -3px;
+    margin-top: 10px;
+}
+.foot3 a i{
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+}
+
+/*Footer Tag end*/
+
+
+@media(max-width:768px){
+    body{
+        width: 100%;}
+
+/*Header section start*/
+    .logo img{
+        margin-left: -130px;
+    }
+   
+    header{
+        width: 100%;
+        height: 60px;
+    }
+    header .nav li {
+        width: 150px;
+        height: 1px;
+        margin-top: 2px;
+        background-color: #f3c10e;
+        margin-left: -100px;
+        border-radius: 20px;
+    }
+/*Header section end*/
+
+
+/*2nd Image section start*/
+.section2 img{
+    height: 320px;
+    width: 400px;
+    margin-left: -30px;
+    margin-top: 0px;
+}
+.text2 h4{
+    margin-top: 250px;
+    margin-left: -430px;
+}
+.text2 h1{
+    margin-top: -20px;
+    margin-left: -430px;
+    font-size: 20px;
+}
+.text2 p{
+    margin-left: -430px;
+    margin-top: 20px;
+    height: auto;
+    width: 300px;
+}
+.text2 button{
+    height: 32px;
+    width: 150px;
+    margin-left: -430px;
+    margin-top: 10px;
+}
+/*2nd Image section end*/
+
+
+/*Footer Section Start*/
+footer{
+    margin-top: 180px;
+    height: 600px;
+    width: 480px;
+    text-align: center;
+}
+.foot{
+    height: auto;
+    width: 400px;
+    text-align: center;
+    display: block;
+    margin-left: 20px;
+    margin-top: 50px;
+    
+}
+    .foot1{
+        height: auto;
+        width: 400px;
+        margin: auto;
+        margin-top: -40px;
+    }
+    .foot2{
+        height: auto;
+        width: 400px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .foot3{
+        height: auto;
+        width: 400px;
+        margin: auto;
+        margin-top: 50px;
+    }
+}
+
+/*Footer Section end*/
+
+
+
+

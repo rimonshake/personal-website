@@ -1,0 +1,726 @@
+/*Header Section start*/
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(22, 34, 112);
+    position: fixed;
+    
+}
+header .logo{
+     margin-left: 200px;
+}
+header .logo img{
+    height: 60px;
+     width: 150px;
+}
+.logo img:hover{
+    opacity: 0.8;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .nav{
+   margin-left: 420px;
+   margin-top: -10px;
+   font-size: 13px;
+   font-weight: bold;
+   position: fixed;
+   
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding: 20px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header .nav ul li a:hover{
+    color: blueviolet;
+    transition: all 0.1s ease-in;
+}
+
+/*Header Section end*/
+
+
+
+
+/*1st Image section start*/
+.section1{
+    display: flex;
+    background-color: rgb(248, 248, 246);
+}
+.image{
+    margin-top: 170px;
+    margin-left: 80px;
+   
+}
+.text{
+    margin-top: 220px;
+    margin-left: 230px;
+}
+.section1 .text h1{
+    font-size: 50px;
+    margin-top: -30px;
+}
+.text h4{
+    font-weight: normal;
+    font-size: 20px;
+}
+.section1 .text p{
+    margin-top: -30px;
+    font-weight: normal;
+    font-size: 15px;
+    width: 500px;
+}
+.section1 .text button{
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    background:  linear-gradient(10deg, #de47d2 20%, rgba(11, 128, 246, 0.267) 70%);
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+}
+.text button:hover{
+    box-shadow: 2px 2px 20px #4792DE, -2px -2px 20px #4792DE ;
+}
+/*1st Image section end*/
+
+
+
+/*2nd Image section start*/
+.section2{
+    display: flex;
+    height: 650px;
+    width: 100%;
+    background-color:rgb(248, 248, 246);
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section2 div{
+    margin: 0% auto;
+}
+.image2 img{
+    height: 580px;
+    width: 530px;
+    margin-top: 10px;
+    padding-left: 100px;
+}
+.text2 h4{font-weight: normal;
+    margin-left: -100px;
+    font-size:20px ;}
+.text2 h1{ margin-top: -25px;
+    margin-left: -100px;
+    font-size: 35px;}
+.text2 p{
+    height: 100px;
+    width: 450px;
+    top: 20px;
+    color: #525D69;
+    margin-left: -100px;
+}
+.text2 button{
+    margin-top: 20px;
+    height: 45px;
+    width: 180px;
+    background:  linear-gradient(10deg, #6257ff 30%, rgba(0, 128, 255, 0.267) 80%);
+    overflow: hidden;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-left: -100px;
+}
+.text2 button:hover{
+    box-shadow: 2px 2px 20px #4792DE, -2px -2px 20px #4792DE ;
+}
+/*2nd Image section end*/
+
+
+
+/*3rd service section start*/
+.section3{
+    height:100%;
+    width: 100%;
+    margin:0 auto ;
+    text-align: center;
+    margin-top: 100px;
+}
+.text3 h1{
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    line-height: 10px;
+}
+.text3 p{
+    width: 660px;
+    height: 50px;
+    margin: 0 auto;
+    color: rgb(0, 0, 0, 0.5);
+}
+.service{
+    width: 80%;
+    overflow: hidden;
+    margin: 0% auto;
+}
+
+.service .ser1, .ser2{
+    width: 100%;
+
+}
+.service .ser1 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin-top: 70px
+}
+.ser1 h1{color: rgb(0,0,0,0.7);
+    cursor: pointer;
+    font-size: 20px;}
+.ser1 i{font-size: 30px;
+    color: rgb(0,0,0,0.7)}
+.ser1 p{
+    color: rgb(0,0,0,0.6);
+}
+.ser1 h1:hover{
+    color: blueviolet;
+}
+.ser1 i:hover{
+    color: blueviolet;
+}
+.ser1 div:hover{
+    background-color: rgb(230, 227, 223);
+}
+.ser2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin-top: 70px
+    
+}
+.ser2 h1{color: rgb(0,0,0,0.7);
+    cursor: pointer;
+    font-size: 20px;}
+.ser2 i{font-size: 30px;
+    color: rgb(0,0,0,0.7)}
+.ser2 h1:hover{
+    color: blueviolet;
+}
+.ser2 i:hover{
+    color: blueviolet;
+}
+.ser2 p{
+    color: rgb(0,0,0,0.6);
+}
+.ser2 div:hover{
+    background-color: rgb(230, 227, 223);
+}
+/*3rd service section start*/
+
+
+
+/*4th Number section start*/
+.section4{
+    width: 100%;
+    height: 310px;
+    background-color: #469BF0;
+    color: white;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.section4 div{
+    float: left;
+    padding: 10px;
+    text-align: center;
+    margin-left: 160px;
+}
+.section4 div h1{
+    font-size: 40px;
+    margin-top: 90px;
+}
+.section4 div p{
+    margin-top: -20px;
+}
+
+/*4th Number section end*/
+
+
+/*5th section start*/
+/*Our Latest Featured Projects*/
+.section5{
+    width: 100%;
+    box-sizing: border-box;
+}
+.section5 .text4{
+    text-align: center;
+}
+.text4 h1{
+    font-size: 35px;
+    margin-top: 110px;
+    color: rgb(0, 0, 0, 0.8);
+}
+.text4 p {
+    margin-top: -20px;
+    color: rgb(0,0,0,0.5);
+}
+
+.imgport1 div{
+    width: 13%;
+    float: left;
+    padding: 5px;
+    margin-top: 70px;
+    margin-left: 185px;
+    text-align: center;
+}
+.imgport1 p{
+    margin-top: -10px;
+}
+
+.imgport1 img{background: blue; 
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+    margin: 0% auto;
+    text-align: center;
+}
+.imgport1 img:hover{
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+    height: 350px;
+    width: 350px;
+}
+.imgport2 div{
+    width: 13%;
+    float: left;
+    padding: 5px;
+    margin-top: 70px;
+    margin-left: 185px;
+    text-align: center;
+    margin-top: -1px;
+}
+
+.imgport2 p{
+    margin-top: -10px;}
+
+    
+.imgport2 img:hover{
+    opacity: 0.3;
+    transition: all .3s ease-in-out;
+    height: 350px;
+    width: 350px;
+}
+.imgport2 img{background: blue; 
+    border-radius: 10px;
+    display: flex;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+    margin: 0% auto;
+    text-align: center;}
+
+/*5th section end*/
+
+
+/*6th section start*/
+.section6{
+    margin-top: 1200px;
+    height: 800px;
+    width: 100%;
+    background-color: rgb(243, 240, 235);
+}
+.text5{
+    text-align: center;
+    padding: 2% 0%;
+}
+.text5 h1{
+    font-size: 35px;
+    line-height: 0%;
+    margin-top: 20px;
+}
+.text5 p{
+    padding: 10px;
+    color: rgb(0,0,0,0.5);
+}
+.card{
+    height: 540px;
+    width: 90%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    margin: 0, auto;
+    margin-left: 78px;
+}
+.card1{
+    width: 300px;
+    height: 500px;
+    background-color: rgb(187, 178, 196);
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.card1 h1{
+    height: 60px;
+    width: 80px;
+    background-color: #469BF0;
+    margin-left: 108px;
+    border-radius: 100%;
+}
+.card1 button{
+    height: 50px;
+    width: 80%;
+    background-color: blueviolet;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.card1:hover{
+    box-shadow: 5px 5px 20px rgb(240, 13, 168), -5px -5px 20px rgb(240, 13, 168)
+}
+.card1 button:hover{
+    transition: all 0.5s ease-in;
+}
+.card1:hover> button{
+    height: 50px;
+    width: 80%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: white;
+    outline: none;
+    border: none;
+    color: black;
+    box-shadow: 5px 5px 20px rgb(240, 13, 168), -5px -5px 20px rgb(240, 13, 168);
+}
+.card1:hover{
+    background-color: blueviolet;
+    color: white;
+    width: 310px;
+    height: 520px;
+    transition: all 0.5s ease-in-out;
+}
+.card1 h1:first-child{
+    font-size: 40px;
+    padding-top: 8px;
+}
+/*pricing section end*/
+/*6th section end*/
+
+
+
+/*Footer Tag start&*/
+footer{
+    margin-top: 100px;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(10, 18, 55);
+    color: white;
+}
+.foot{
+    display: flex;
+    float: left;
+    margin-top: 100px;
+}
+.foot1{
+    margin-left: 170px;
+    height: 100%;
+    width: 400px;
+}
+.foot1 h3{
+    font-size: 25px;
+}
+.foot2{
+    margin-left: 100px;
+    height: 100%;
+    width: 400px;
+}
+.foot1 p{
+    margin-left: -3px;
+    margin-top: 10px;
+}
+.foot2 h3{
+    font-size: 25px;
+}
+.foot2 p{
+    margin-left: -3px;
+    margin-top: 10px;
+}
+.foot2 input{
+    height: 40px;
+    width: 280px;
+    border: none;
+    outline: none;
+}
+.foot2 input::placeholder{
+    font-size: 15px;
+    font-weight: bold;
+    font-family:monospace;
+}
+.foot2 .send{
+    height: 42px;
+    width: 70px;
+    font-weight: bold;
+    margin-left: -73px;
+    border: none;
+    background-color: #49A1F9;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.foot3{
+    margin-left: 100px;
+    height: 100%;
+    width: 200px;
+}
+.foot3 h3{
+    font-size: 25px;
+}
+.foot3 p{
+    margin-left: -3px;
+    margin-top: 10px;
+}
+.foot3 a i{
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+}
+
+/*Footer Tag end*/
+.checkbtn{
+    display: none;
+}
+.check{
+    display: none;
+}
+
+
+
+
+
+/*Mobile View*/
+@media(max-width:768px){
+    body{
+            width: 100%;}
+/*Header section start*/
+.logo img{
+    margin-left: -130px;
+}
+
+    header{
+            width: 100%;
+            height: 60px;
+        }
+    header .nav li {
+            width: 150px;
+            height: 1px;
+            margin-top: 2px;
+            background-color: #f3c10e;
+            margin-left: -100px;
+            border-radius: 20px;
+        }
+/*Header section end*/
+
+
+/*1st Image section start*/
+.section1 {
+    height: auto;
+    width: 483px;
+}
+.text h4{
+    margin-left: -170px;
+    font-size: 20px;
+    margin-top: -5px;
+}
+.section1 .text h1{
+    margin-left: -170px;
+    font-size: 30px;   }
+.section1 .text p {
+    margin-left: -170px;
+    font-size: 15px;
+    height: auto;
+    width: 250px;
+    
+}
+.text button{
+    height: 30px;
+    width: 130px;
+    margin-left: -170px;
+}
+.image img{
+    height: 460px;
+    width: 390px;
+    margin-top: 380px;
+    margin-left: -380px;
+}
+/*1st Image section end*/
+
+
+/*2nd Image section start*/
+.section2 img{
+    height: 400px;
+    width: 380px;
+    margin-left: -70px;
+    margin-top: -30px;
+}
+.text2 h4{
+    margin-top: 750px;
+    margin-left: -420px;
+}
+.text2 h1{
+    margin-top: -30px;
+    margin-left: -420px;
+    font-size: 30px;
+}
+.text2 p{
+    margin-left: -420px;
+    margin-top: 20px;
+    height: auto;
+    width: 300px;
+}
+.text2 button{
+    height: 32px;
+    width: 150px;
+    margin-left: -420px;
+    margin-top: 10px;
+}
+/*2nd Image section end*/
+
+
+
+/*3rd service section start*/
+.section3{
+    margin-top: 300px;
+}
+.text3 h1{
+    font-size: 20px;
+}
+.text3 p{
+    height: auto;
+    width: 400px;
+}
+.ser1{
+    height: auto;
+    max-width: 400px;
+    margin-left: 30px;
+
+}
+.ser1 div{
+    margin: 0% 5%;
+}
+.ser2 div{
+    margin-left: 35px;
+}
+/*3rd service section end*/
+
+
+/*4th Number section start*/
+.section4{
+    height: 850px;
+    max-width: 400px;
+    margin: auto;
+}
+/*4th Number section end*/
+
+
+
+/*5th Our Latest Featured section start*/
+
+.text4 h1{
+    font-size: 28px;
+}
+.text4 p{
+    font-size: 20px;
+}
+.d1 img{
+    margin-left: -115px;
+}
+.d2 img{
+    margin-left: -115px;
+}
+.d3 img{
+    margin-left: -115px;
+}
+.d4 img{
+    margin-left: -115px;
+}
+.d5 img{
+    margin-left: -115px;
+}
+.d6 img{
+    margin-left: -115px;
+}
+/*5th Our Latest Featured section end*/
+
+
+
+
+/*6th pricing section start*/
+.text5 h1{
+    margin-top: 2100px;
+}
+.card{
+    height: auto;
+    width: 300px;
+    display: block;
+}
+
+/*6th pricing section end*/
+
+
+
+/*Footer Section Start*/
+footer{
+    margin-top: 3650px;
+    height: 650px;
+    width: 480px;
+    text-align: center;
+}
+.foot{
+    height: auto;
+    width: 400px;
+    text-align: center;
+    display: block;
+    margin-left: 20px;
+}
+    .foot1{
+        height: auto;
+        width: 400px;
+        margin: auto;
+        margin-top: -40px;
+    }
+    .foot2{
+        height: auto;
+        width: 400px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .foot3{
+        height: auto;
+        width: 400px;
+        margin: auto;
+        margin-top: 50px;
+    
+}
+/*Footer Section end*/
+
+}
